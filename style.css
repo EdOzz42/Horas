@@ -31,4 +31,7 @@ footer {
 .github {
     text-decoration:none;
     color: rgb(0, 247, 255);
+    border: 2px solid rgb(0, 247, 255);
+    border-radius: 5px;
+    background-color: rgba(0, 247, 255, 0.150);
 }
