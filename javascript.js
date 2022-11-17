@@ -13,7 +13,7 @@ function carregar() {
 
     if (hourNow >= 5 && hourNow < 12) {
         // BOM DIA!
-        img.src = "morning.png"
+        img.src = "images/morning.png"
         document.body.style.background = "#E3C474"
         let novoParagrafo = document.createElement('p')
         let texto = document.createTextNode('Bom dia!')
@@ -25,7 +25,7 @@ function carregar() {
         novoParagrafo.style.borderRadius = '20px'
     } else if (hourNow > 5 && hourNow <= 18) {
         // BUENAS TARDES!
-        img.src = "afternoon.png"
+        img.src = "images/afternoon.png"
         document.body.style.background = "#D38E43"
         let novoParagrafo = document.createElement('p')
         let texto = document.createTextNode('Boa tarde!')
@@ -37,7 +37,7 @@ function carregar() {
         novoParagrafo.style.borderRadius = '20px'
     } else {
         //GOOD EVENING!
-        img.src = "night.png"
+        img.src = "images/night.png"
         document.body.style.background = "#053430"
         let novoParagrafo = document.createElement('p')
         let texto = document.createTextNode('Boa noite!')
