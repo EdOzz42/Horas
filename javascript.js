@@ -1,12 +1,20 @@
 function carregar() {
+    let section = document.querySelector('section')
+    let div = document.createElement('div')
+    div.getAttribute('id', 'foto')
+    section.appendChild(div)
+    let imgCrEl = document.createElement('img')
+    imgCrEl.setAttribute('id', 'image')
+    div.appendChild(imgCrEl)
+    
     let msg = window.document.querySelector("div#msg")
     let img = window.document.querySelector("img#image")
     let data = new Date()
     let hourNow = data.getHours()
     let minutesNow = data.getMinutes()
-    //var hourNow = 18
-    //var minutesNow = 3
-    
+    //let hourNow = 18
+    //let minutesNow = 3
+
     if (minutesNow < 10) {
        minutesNow = '0' + minutesNow 
     } 
